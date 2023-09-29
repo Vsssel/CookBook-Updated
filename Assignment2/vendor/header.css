@@ -1,0 +1,145 @@
+header{
+    width: 90%;
+    height: auto;
+    position: relative;
+    align-self: center;
+    padding-bottom: 40px;
+}
+#header-nav{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.share-social{
+    height: 100%;
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.small-size-img{
+    width: 23px;
+    height: 23px;
+    align-self: center;
+    margin: 20px;
+}
+.dark-side-bar{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: end;
+}
+.toggle-container {
+    display: flex;
+    align-items: center;
+    margin: 17px;
+    border-style: double;
+    border-radius: 20px;
+    border-color: #bbc4b5;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 55px;
+    height: 30px;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #3e514f;
+    transition: 0.4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 23px;
+    width: 23px;
+    left: 4px;
+    bottom: 4px;
+    background-image: url(moon.svg);
+    background-size: auto;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider:before {
+    background-image: url(sun.svg);
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+#footer-nav{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100px;
+}
+
+hr{
+    width: 100%;
+    color: black;
+}
+
+#inner{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+
+.title{
+    width: 250px;
+    height: auto;
+}
+
+h1{
+    font-size: 30px;
+    color: #bbc4b5;
+    margin-top: 10px;
+}
+
+#menu{
+    width: 1000px;
+    height: 100px; 
+}
+.menu-text{
+    font-size: 22px;
+    position: relative;
+    list-style: none;
+    color: #bbc4b5;
+}
+ul{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 0px;
+}
+li{
+    font-size: 22px;
+    position: relative;
+    list-style: none;
+    color: #bbc4b5;
+}
+#shopping-nav{
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-content: end;
+}

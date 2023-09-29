@@ -1,0 +1,355 @@
+@import url(vendor/icon.css);
+@import url(vendor/header.css);
+@import url(vendor/text.css);
+@import url(vendor/buttons.css);
+@import url(vendor/futter.css);
+@import url(vendor/updated.css);
+body{
+    background-color: #3e514f;
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+article{
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+#main{
+    position: relative;
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-bottom: 20px;
+}
+#featured-recipes{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.left-side{
+    width: 53%;
+    height: auto;
+    padding-right: 30px;
+    margin-bottom: 30px;
+}
+.right-side{
+    width: 47%;
+    height: 500px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.description{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.features{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.person-info{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    height: auto;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.ava-img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.publication-info{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.popular-recieps-content{
+    width: 90%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.content-container{
+    width: 440px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.content-img{
+    width: 170px;
+    height: 120px;
+    cursor: pointer;
+}
+.contant-info{
+    width: 45%;
+    height: auto;
+    margin-left: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+#popular-recipes{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+#reciepts{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #24242a;
+}
+.inner-body{
+    width: 90%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.row1{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    margin-bottom: 40px;
+    justify-content: space-between;
+}
+.row2{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+.row-content{
+    width:auto;
+    height: auto;
+}
+.reciept-img{
+    width: 425px;
+    height: 290px;
+    border-radius: 7px;
+}
+.inner-body-header{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.shop-img{
+    width: 290px;
+    height: 290px;
+}
+.content-text{
+    font-size: 20px;
+    width: auto;
+    margin-left: 65px;
+    margin-top: 10px;
+}
+.content-text-price{
+    font-size: 16px;
+    width: 50px;
+    margin-left: 105px;
+    color: green;
+}
+.shop-button{
+    width: 185px;
+    height: 45px;
+    background-color: #dadfcf;
+    margin-left: 45px;
+    color: white;
+}
+.row2-margin{
+    margin-right: 70px;
+}
+.row2-main{
+    justify-content: space-between;
+}
+#contact-content{
+    width: 100%;
+    height: auto;
+    background-color: #24242a;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.flex-direction{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 40px;
+}
+.contact-text{
+    width: 45%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.contact-input{
+    width: 55%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.small{
+    width: 450px;
+    height: 40px;
+    background-color: #24242a;
+    border-color: #dadfcf;
+    border-style: solid;
+}
+.big{
+    width: 650px;
+    height: 225px;
+    background-color: #24242a;
+    border-color: #dadfcf;
+    border-style: solid;
+}
+.left-container{
+    width: 70%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.post-img{
+    width: 900px;
+    height: 600px;
+    border-radius: 5px;
+}
+#post-img-dummy{
+    width: 957px;
+    height: auto;
+}
+.color{
+    width: 100%;
+    height: auto;
+    background-color: #24242a;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-top: 90px;
+}
+.button-container{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.set-width{
+    width: 150px;
+}
+.recipe-container{
+    width: 94%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-style: groove;
+    border-color: black;
+    align-items: center;
+}
+.recipe-description{
+    width: 95%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+#dotted-container{
+    width: 95%;
+    height: 130px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    align-self: center;
+}
+.container-dotted-1{
+    width: 33%;
+    height: 100%;
+    border-style: dotted;
+}
+.container-dotted-1 p{
+    text-align: center;
+}
+#ingredients{
+    width: 85%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #3e514f;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+.ingre-hr{
+    width: 100%;
+    background-color: #bbc4b5;
+}
+#direction{
+    width: 90%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.list-of-directions{
+    list-style-type: none;
+    counter-reset: custom-counter; 
+    margin-bottom: 20px;
+}
+
+.ordered-list::before {
+    content: counter(custom-counter);
+    counter-increment: custom-counter;
+    font-weight:bold; 
+}
+.hr-width{
+    margin-top: 20px;
+    width: 100%;
+}
+#comment{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+#checkbox{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.inner-body-input{
+    width: 200px; 
+    height: 20px;
+}

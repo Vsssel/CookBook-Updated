@@ -1,0 +1,12 @@
+.icon{
+    color:#bbc4b5;
+    cursor: pointer;
+}
+.icon-size-normal{
+    font-size: 25px;
+    margin: 20px;
+}
+.icon-size-small{
+    margin-top: 15px;
+    font-size: 18px;
+}

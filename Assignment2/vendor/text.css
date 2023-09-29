@@ -1,0 +1,157 @@
+h4{
+    display: inline-block;
+    position: relative;
+    margin-top: 0px;
+    color: #bbc4b5;
+}
+h2{
+    display: inline-block;
+    color: #bbc4b5;
+}
+p{
+    display: inline-block;
+    color: #bbc4b5; 
+    margin-top: 15px; 
+    margin-left: 10px; 
+    margin-right: 10px;
+}
+a{
+    display: inline-block;
+    font-size: 25px;
+    color: #bbc4b5;
+    text-decoration: none;
+    font-weight: bold;
+}
+.acc-nickname{
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.publication-date{
+    font-size: 14px;
+    margin-top: 0px;
+}
+.content-name{
+    font-size: 16px;
+    margin-top: 0px;
+    font-weight: bold;
+}
+.content-discription{
+    width: 100%;
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-left: 8px;
+}
+.content-discription-size{
+    font-size: 26px;
+}
+.futter-text{
+    font-size: 18px; 
+    font-weight: bold;
+}
+.futter-text-margin{
+    margin-top: 5px;
+}
+.futter-title{
+    width: 700px;
+}
+a:hover{
+    color: #ddf4a9;
+}
+.h1-style{
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.h1-size{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+.contact-input-text{
+    font-weight: bold; 
+    color: #bbc4b5;
+}
+.shop-text{
+    font-size: 18px;
+    color: #bbc4b5;
+    margin-top: 0;
+}
+.content-text{
+    font-size: 20px;
+    width: auto;
+}
+.tags{
+    width: 90%;
+    align-self: center;
+    border-style: dashed;
+    border-color: white;
+    color: #bbc4b5;
+}
+.text{
+    width: 95%;
+    color: #bbc4b5;
+}
+.text-size1{
+    font-size: 30px;
+    color: #bbc4b5;
+}
+.text-size2{
+    font-size: 14px;
+    margin-top: 5px;
+    color: #bbc4b5;
+}
+.blog-text-margin{
+    margin-left: 20px; 
+    margin-top: 20px;
+}
+.ingredients-text{
+    font-size: 18px;
+    color: #bbc4b5;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.list-of-ingredients{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.list{
+    list-style: none;
+    font-size: 16px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    font-weight: bold;
+}
+.list-of-ingredients .list::before{
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    background-image: url(circle-outline-svgrepo-com.svg);
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+}
+.list-of-directions{
+    list-style-type: none;
+    counter-reset: custom-counter; 
+    margin-bottom: 20px;
+}
+
+.ordered-list::before {
+    content: counter(custom-counter);
+    counter-increment: custom-counter;
+    font-weight:bold; 
+}
+.style-comment{
+    margin-bottom: 5px;
+}
+.bold{
+    font-weight: bold;
+}
